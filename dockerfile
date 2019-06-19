@@ -1,4 +1,4 @@
-FROM node:alpine as builder
+FROM node:alpine
 WORKDIR /usr/app/react-app
 COPY package.json .
 RUN npm install

@@ -4,7 +4,7 @@ services:
 before_install:
   - docker build -t sanchit .
 
-scripts:
+script:
   - docker run sanchit npm run test
 
 
